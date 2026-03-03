@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const photos = [
-  { src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80", label: "Casamento no Vale do Paraíba" },
+  
   { src: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=80", label: "Cerimônia ao ar livre" },
   { src: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=600&q=80", label: "Detalhes românticos" },
   { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80", label: "Cerimônia na praia" },
