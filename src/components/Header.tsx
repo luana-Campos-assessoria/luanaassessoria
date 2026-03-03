@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Menu, X, Heart } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -15,11 +16,8 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 md:h-20">
-        <a href="#home" className="flex items-center gap-2">
-          <Heart className="w-5 h-5 text-primary fill-primary" />
-          <span className="font-serif text-lg md:text-xl font-semibold tracking-wide text-foreground">
-            Luana Campos
-          </span>
+        <a href="#home" className="flex items-center">
+          <img src={logo} alt="Luana Campos Assessora de Eventos" className="h-12 md:h-14 w-auto" />
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
