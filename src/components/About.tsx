@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import perfilLuana from "@/assets/perfil_luana.png";
 import { Shield, Eye, Handshake, Heart } from "lucide-react";
 
 const pillars = [
@@ -21,7 +22,7 @@ const About = () => {
           >
             <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=600&q=80"
+                src={perfilLuana}
                 alt="Luana Campos - Assessora de Eventos"
                 className="w-full h-full object-cover"
                 loading="lazy"
