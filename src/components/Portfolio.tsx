@@ -5,7 +5,7 @@ const photos = [
   { src: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=80", label: "Cerimônia ao ar livre" },
   { src: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=600&q=80", label: "Detalhes românticos" },
   { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80", label: "Cerimônia na praia" },
-  { src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80", label: "Mesa decorada" },
+  { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80", label: "Mesa decorada com flores" },
   { src: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=600&q=80", label: "Noivos felizes" },
   { src: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=600&q=80", label: "Casamento no campo" },
   { src: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=600&q=80", label: "Decoração floral" },
