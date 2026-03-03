@@ -1,0 +1,66 @@
+import { motion } from "framer-motion";
+import { Quote } from "lucide-react";
+
+const testimonials = [
+  {
+    text: "A Assessoria da Luana foi o investimento mais assertivo do nosso casamento. Ela garantiu que nós estivéssemos tranquilos para bem viver o momento.",
+    author: "Marina & Rafael",
+    event: "Casamento em Taubaté",
+  },
+  {
+    text: "Transformamos logística complexa em momentos leves e inesquecíveis. A Luana entendeu exatamente o que queríamos e entregou além.",
+    author: "Camila & Bruno",
+    event: "Casamento no Litoral Norte",
+  },
+  {
+    text: "Do primeiro encontro ao último convidado ir embora, a Luana estava presente com profissionalismo e carinho. Nosso dia foi perfeito!",
+    author: "Juliana & Pedro",
+    event: "Casamento em São José dos Campos",
+  },
+];
+
+const Testimonials = () => {
+  return (
+    <section className="py-20 md:py-28 bg-background">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <p className="text-sm uppercase tracking-[0.25em] text-[hsl(var(--gold))] mb-3 font-medium">
+            Depoimentos
+          </p>
+          <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-12">
+            O que dizem nossos casais
+          </h2>
+        </motion.div>
+
+        <div className="grid md:grid-cols-3 gap-6">
+          {testimonials.map((t, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.15 }}
+              className="bg-card rounded-2xl p-8 text-left shadow-sm border border-border/50"
+            >
+              <Quote className="w-6 h-6 text-primary mb-4" />
+              <p className="text-muted-foreground text-sm leading-relaxed mb-6 italic">
+                "{t.text}"
+              </p>
+              <div>
+                <p className="font-serif text-foreground font-medium">{t.author}</p>
+                <p className="text-xs text-muted-foreground">{t.event}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Testimonials;
