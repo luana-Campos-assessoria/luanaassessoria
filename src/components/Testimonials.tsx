@@ -13,9 +13,9 @@ const testimonials = [
     event: "Casamento • 27-09-2025",
   },
   {
-    text: "Do primeiro encontro ao último convidado ir embora, a Luana estava presente com profissionalismo e carinho. Nosso dia foi perfeito!",
-    author: "Juliana & Pedro",
-    event: "Casamento em São José dos Campos",
+    text: "Temos muito a agradecer a Luana e toda a equipe, especialmente no dia do casamento, que todas elas foram muito solicitas, atenciosas e fizeram tudo para deixar o dia muito leve e mais tranquilo pra nós.",
+    author: "Taiza & Giuseppe",
+    event: "Casamento • 17-10-2025",
   },
 ];
 
