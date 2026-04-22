@@ -27,17 +27,18 @@ const Hero = () => {
           Assessora de Eventos e Cerimonialista
         </motion.p>
 
-        <motion.h1
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="font-serif text-4xl sm:text-5xl md:text-7xl text-white font-semibold leading-tight mb-6"
+          className="mb-6 flex justify-center"
         >
-          Luana Campos
-          <span className="block text-2xl sm:text-3xl md:text-4xl font-light mt-2 italic">
-            Assessoria de Eventos
-          </span>
-        </motion.h1>
+          <img 
+            src="/logo-branco.png" 
+            alt="Luana Campos Assessoria de Eventos" 
+            className="h-32 sm:h-40 md:h-48 w-auto object-contain brightness-0 invert" 
+          />
+        </motion.div>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
