@@ -55,8 +55,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-white/80 text-base md:text-lg mb-10 font-light italic max-w-2xl mx-auto"
         >
-          "Cada casamento é uma nova criação — e o de vocês será planejado com
-          propósito, identidade e harmonia em cada detalhe."
+          "O seu sonho, perfeitamente orquestrado com amor!"
         </motion.p>
 
         <motion.div
