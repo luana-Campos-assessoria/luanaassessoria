@@ -36,7 +36,7 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-sm uppercase tracking-[0.25em] text-[hsl(var(--gold))] mb-3 font-medium">
+            <p className="text-sm uppercase tracking-[0.25em] text-primary mb-3 font-medium">
               Sobre mim
             </p>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 leading-snug">
@@ -62,7 +62,7 @@ const About = () => {
                   key={label}
                   className="flex flex-col items-center gap-2 p-4 rounded-xl bg-muted/50"
                 >
-                  <Icon className="w-5 h-5 text-[hsl(var(--gold))]" />
+                  <Icon className="w-5 h-5 text-primary" />
                   <span className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
                     {label}
                   </span>

@@ -67,7 +67,7 @@ const Hero = () => {
           <Button
             asChild
             size="lg"
-            className="bg-[hsl(var(--gold))] hover:bg-[hsl(var(--gold))]/90 text-white text-base px-8 py-6 rounded-full shadow-lg"
+            className="bg-primary hover:bg-primary/90 text-white text-base px-8 py-6 rounded-full shadow-lg"
           >
             <a
               href="https://wa.me/5512999999999"

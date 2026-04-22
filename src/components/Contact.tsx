@@ -25,7 +25,7 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <p className="text-sm uppercase tracking-[0.25em] text-[hsl(var(--gold))] mb-3 font-medium">
+          <p className="text-sm uppercase tracking-[0.25em] text-primary mb-3 font-medium">
             Contato
           </p>
           <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4">
@@ -66,7 +66,7 @@ const Contact = () => {
               <Label htmlFor="message">Mensagem</Label>
               <Textarea id="message" placeholder="Conte um pouco sobre o que vocês sonham para esse dia..." rows={4} value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} />
             </div>
-            <Button type="submit" className="w-full bg-[hsl(var(--gold))] hover:bg-[hsl(var(--gold))]/90 text-white rounded-full py-6">
+            <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-white rounded-full py-6">
               <Send className="w-4 h-4 mr-2" />
               Enviar mensagem
             </Button>
@@ -80,7 +80,7 @@ const Contact = () => {
             className="flex flex-col justify-center gap-6"
           >
             <div className="flex items-start gap-4">
-              <Instagram className="w-5 h-5 text-[hsl(var(--gold))] mt-1 shrink-0" />
+              <Instagram className="w-5 h-5 text-primary mt-1 shrink-0" />
               <div>
                 <p className="font-medium text-foreground text-sm">Instagram</p>
                 <a href="https://instagram.com/cerimonialistaluanacampos" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-sm hover:text-foreground transition-colors">
@@ -89,7 +89,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <Mail className="w-5 h-5 text-[hsl(var(--gold))] mt-1 shrink-0" />
+              <Mail className="w-5 h-5 text-primary mt-1 shrink-0" />
               <div>
                 <p className="font-medium text-foreground text-sm">Email</p>
                 <a href="mailto:contato@luanacamposassessoria.com.br" className="text-muted-foreground text-sm hover:text-foreground transition-colors">
@@ -98,7 +98,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <MapPin className="w-5 h-5 text-[hsl(var(--gold))] mt-1 shrink-0" />
+              <MapPin className="w-5 h-5 text-primary mt-1 shrink-0" />
               <div>
                 <p className="font-medium text-foreground text-sm">Localização</p>
                 <p className="text-muted-foreground text-sm">Vale do Paraíba / SP</p>
