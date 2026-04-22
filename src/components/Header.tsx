@@ -14,12 +14,12 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border/50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 md:h-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20 md:h-24">
         <a href="#home" className="flex items-center">
           <img 
             src="/logo-branco.png" 
             alt="Luana Campos Assessoria de Eventos" 
-            className="h-[46px] md:h-[55px] w-auto object-contain brightness-0 dark:brightness-200" 
+            className="h-[60px] md:h-[75px] w-auto object-contain brightness-0 dark:brightness-200" 
           />
         </a>
 
