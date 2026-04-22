@@ -22,7 +22,7 @@ const About = () => {
           >
             <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-xl">
               <img
-                src={perfilLuana}
+                src="https://lh3.googleusercontent.com/d/1048Ys1aLpEcOV9oAQk7fK9L3IZSY_NrZ"
                 alt="Luana Campos - Assessora de Eventos"
                 className="w-full h-full object-cover"
                 loading="lazy"
