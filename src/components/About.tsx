@@ -49,20 +49,19 @@ const About = () => {
             transition={{ duration: 0.7 }}
           >
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 leading-snug font-bold">
-              Cada casamento é único
+              Transformando Sonhos em Memórias Reais
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Nada aqui é "apenas mais um evento", mas uma experiência pensada
-              para refletir quem vocês são, com a elegância e a excelência que
-              esse dia merece.
+              Acredito que a verdadeira felicidade está em servir e transformar grandes sonhos em realidade. É essa paixão que me motiva, todos os dias, honrar a confiança de cada casal que escolhe caminhar ao meu lado. Para mim, planejar um casamento vai além da logística; é uma busca constante por aprendizado e novas experiências que me permitem criar momentos únicos e inesquecíveis.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Atuação no Vale do Paraíba e região — Taubaté, Pindamonhangaba,
-              São José dos Campos, litoral, campo ou capital. Especialista em
-              cerimônias católicas, evangélicas e simbólicas.
+              Minha entrega é pautada pela excelência em cada detalhe, unindo um planejamento de alta qualidade à autenticidade que cada celebração merece. Mais do que organizar eventos, auxilio vocês a viverem o dia mais importante de suas vidas com a tranquilidade de quem tem ao lado alguém que valoriza a ética, a transparência e, acima de tudo, a família.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Nossa atuação é pautada por valores que considero inegociáveis: a fé em Deus, a importância da família, e uma conduta baseada na honestidade, transparência e ética. Acreditamos no trabalho em equipe e no respeito mútuo para que, juntos, possamos inovar e superar todas as expectativas.
             </p>
             <p className="text-foreground font-serif italic text-lg mb-8 font-semibold">
-              "Confiança é a base do luxo."
+              "Confiança é a base do luxo!"
             </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
