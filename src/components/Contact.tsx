@@ -1,21 +1,8 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
-import { Instagram, Mail, MapPin, Send } from "lucide-react";
+import { Instagram, Mail, MapPin, FileText } from "lucide-react";
 
 const Contact = () => {
-  const [form, setForm] = useState({ name: "", email: "", eventType: "", date: "", message: "" });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Form submitted:", form);
-    alert("Mensagem enviada com sucesso! Entraremos em contato por e-mail em breve.");
-    setForm({ name: "", email: "", eventType: "", date: "", message: "" });
-  };
-
   return (
     <section id="contato" className="py-20 md:py-28 bg-card">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,74 +21,75 @@ const Contact = () => {
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
             Sejam bem-vindos! Vamos transformar seu sonho em realidade com
-            elegância e propósito?
+            elegância e propósito? Clique no botão abaixo para preencher nosso formulário de contato.
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-12">
-          <motion.form
-            onSubmit={handleSubmit}
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="space-y-5"
+            className="flex flex-col justify-center items-center p-8 bg-background/50 rounded-2xl border border-primary/10 shadow-sm"
           >
-            <div>
-              <Label htmlFor="name">Nome</Label>
-              <Input id="name" placeholder="Seu nome completo" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} required />
+            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+              <FileText className="w-8 h-8 text-primary" />
             </div>
-            <div>
-              <Label htmlFor="email">Email</Label>
-              <Input id="email" type="email" placeholder="seu@email.com" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} required />
-            </div>
-            <div>
-              <Label htmlFor="eventType">Tipo de Evento</Label>
-              <Input id="eventType" placeholder="Casamento, Debutante, etc." value={form.eventType} onChange={(e) => setForm({ ...form, eventType: e.target.value })} />
-            </div>
-            <div>
-              <Label htmlFor="date">Data Aproximada</Label>
-              <Input id="date" placeholder="Ex: Março 2026" value={form.date} onChange={(e) => setForm({ ...form, date: e.target.value })} />
-            </div>
-            <div>
-              <Label htmlFor="message">Mensagem</Label>
-              <Textarea id="message" placeholder="Conte um pouco sobre o que vocês sonham para esse dia..." rows={4} value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} />
-            </div>
-            <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-white rounded-full py-6">
-              <Send className="w-4 h-4 mr-2" />
-              Enviar mensagem
+            <h3 className="font-serif text-2xl text-foreground mb-4 text-center">Formulário de Contato</h3>
+            <p className="text-muted-foreground text-center mb-8">
+              Clique no botão abaixo para abrir o formulário e nos contar um pouco mais sobre o seu evento.
+            </p>
+            <Button 
+              asChild
+              className="w-full sm:w-auto px-10 py-6 bg-primary hover:bg-primary/90 text-white rounded-full transition-all duration-300"
+            >
+              <a 
+                href="https://forms.gle/iAUwdQZxy1cLVG8N8" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                Abrir Formulário do Google
+              </a>
             </Button>
-          </motion.form>
+          </motion.div>
 
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="flex flex-col justify-center gap-6"
+            className="flex flex-col justify-center gap-8 md:pl-8"
           >
             <div className="flex items-start gap-4">
-              <Instagram className="w-5 h-5 text-primary mt-1 shrink-0" />
+              <div className="w-10 h-10 bg-primary/5 rounded-full flex items-center justify-center shrink-0">
+                <Instagram className="w-5 h-5 text-primary" />
+              </div>
               <div>
-                <p className="font-medium text-foreground text-sm">Instagram</p>
+                <p className="font-medium text-foreground text-sm uppercase tracking-wider">Instagram</p>
                 <a href="https://instagram.com/cerimonialistaluanacampos" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-sm hover:text-foreground transition-colors">
                   @cerimonialistaluanacampos
                 </a>
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <Mail className="w-5 h-5 text-primary mt-1 shrink-0" />
+              <div className="w-10 h-10 bg-primary/5 rounded-full flex items-center justify-center shrink-0">
+                <Mail className="w-5 h-5 text-primary" />
+              </div>
               <div>
-                <p className="font-medium text-foreground text-sm">Email</p>
+                <p className="font-medium text-foreground text-sm uppercase tracking-wider">Email</p>
                 <a href="mailto:contato@luanacamposassessoria.com.br" className="text-muted-foreground text-sm hover:text-foreground transition-colors">
                   contato@luanacamposassessoria.com.br
                 </a>
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <MapPin className="w-5 h-5 text-primary mt-1 shrink-0" />
+              <div className="w-10 h-10 bg-primary/5 rounded-full flex items-center justify-center shrink-0">
+                <MapPin className="w-5 h-5 text-primary" />
+              </div>
               <div>
-                <p className="font-medium text-foreground text-sm">Localização</p>
+                <p className="font-medium text-foreground text-sm uppercase tracking-wider">Localização</p>
                 <p className="text-muted-foreground text-sm">Vale do Paraíba / SP</p>
               </div>
             </div>
