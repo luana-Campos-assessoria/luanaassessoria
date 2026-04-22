@@ -19,7 +19,7 @@ const Header = () => {
           <img 
             src="/logo-branco.png" 
             alt="Luana Campos Assessoria de Eventos" 
-            className="h-10 md:h-12 w-auto object-contain brightness-0 dark:brightness-200" 
+            className="h-[46px] md:h-[55px] w-auto object-contain brightness-0 dark:brightness-200" 
           />
         </a>
 
