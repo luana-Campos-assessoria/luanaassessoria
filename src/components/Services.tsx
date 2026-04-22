@@ -1,37 +1,42 @@
 import { motion } from "framer-motion";
-import { CalendarHeart, Clock, Users, Palmtree, Sparkles } from "lucide-react";
+import { UserCheck, PiggyBank, Briefcase, Plane, Sparkles, Smartphone } from "lucide-react";
 
 const services = [
   {
-    icon: CalendarHeart,
-    title: "Assessoria Completa",
-    desc: "Planejamento do sim ao altar. Acompanhamento em todas as etapas para que cada detalhe reflita vocês.",
+    icon: UserCheck,
+    title: "Assessoria Personalizada",
+    desc: "Desenvolvida de acordo com a necessidade e o momento do casal.",
   },
   {
-    icon: Clock,
-    title: "Cerimonial no Dia D",
-    desc: "Coordenação, timing e tranquilidade para os noivos. Vocês vivem o momento, eu cuido de tudo.",
+    icon: PiggyBank,
+    title: "Alinhamento de Budget",
+    desc: "Orientação de budget de acordo com o perfil e expectativa do casal.",
   },
   {
-    icon: Users,
-    title: "Curadoria de Fornecedores",
-    desc: "Gestão de orçamento com transparência e indicação dos melhores profissionais da região.",
+    icon: Briefcase,
+    title: "Curadoria de fornecedores",
+    desc: "Fornecedores selecionados e de acordo com o perfil e budget do casamento.",
   },
   {
-    icon: Palmtree,
-    title: "Casamentos Únicos",
-    desc: "Na praia, no campo, na capital ou luxo discreto — cada cenário planejado com propósito.",
+    icon: Plane,
+    title: "Destination Wedding",
+    desc: "Planejamentos únicos que represente a personalidade do casal.",
   },
   {
     icon: Sparkles,
-    title: "Organização com Propósito",
+    title: "Organização com proposito",
     desc: "Planejamento leve, funcional e com a identidade de vocês em cada escolha.",
+  },
+  {
+    icon: Smartphone,
+    title: "Plataforma do casamento",
+    desc: "O casal consegue acompanhar todo o planejamento na palma da mão, sempre com transparência e clareza em cada etapa.",
   },
 ];
 
 const Services = () => {
   return (
-    <section id="servicos" className="py-16 md:py-20 bg-background">
+    <section id="servicos" className="py-16 md:py-20 bg-card">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
