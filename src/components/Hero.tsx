@@ -12,17 +12,18 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url(${heroBg})`,
+          backgroundImage: `url(https://lh3.googleusercontent.com/d/132zdNpSZWFM94kXn71B60unk_y-02WBw)`,
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
+      <div className="absolute inset-0 bg-white/30 backdrop-blur-[2px]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-transparent to-black/20" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-white/80 text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-light"
+          className="text-foreground/80 text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-medium"
         >
           Assessora de Eventos e Cerimonialista
         </motion.p>
@@ -34,7 +35,7 @@ const Hero = () => {
           className="mb-6 flex justify-center"
         >
           <img 
-            src="/logo-branco.png" 
+            src="/logo-preto.png" 
             alt="Luana Campos Assessoria de Eventos" 
             className="h-32 sm:h-40 md:h-48 w-auto object-contain" 
           />
@@ -44,7 +45,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-white/90 text-lg md:text-xl mb-4 font-light max-w-2xl mx-auto"
+          className="text-foreground/90 text-lg md:text-xl mb-4 font-medium max-w-2xl mx-auto"
         >
           Será um prazer conduzir vocês nesse momento tão especial.
         </motion.p>
@@ -53,7 +54,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-white/80 text-base md:text-lg mb-10 font-light italic max-w-2xl mx-auto"
+          className="text-primary text-base md:text-lg mb-10 font-medium italic max-w-2xl mx-auto"
         >
           "O seu sonho, perfeitamente orquestrado com amor!"
         </motion.p>
