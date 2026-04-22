@@ -36,21 +36,21 @@ const Contact = () => {
             <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
               <FileText className="w-8 h-8 text-primary" />
             </div>
-            <h3 className="font-serif text-2xl text-foreground mb-4 text-center">Formulário de Contato</h3>
+            <h3 className="font-serif text-2xl text-foreground mb-4 text-center">Planeje seu Evento</h3>
             <p className="text-muted-foreground text-center mb-8">
-              Clique no botão abaixo para abrir o formulário e nos contar um pouco mais sobre o seu evento.
+              Clique no botão abaixo para iniciarmos o planejamento do seu grande dia através do nosso formulário exclusivo.
             </p>
             <Button 
               asChild
-              className="w-full sm:w-auto px-10 py-6 bg-primary hover:bg-primary/90 text-white rounded-full transition-all duration-300"
+              className="w-full sm:w-auto px-10 py-6 bg-primary hover:bg-primary/90 text-white rounded-full transition-all duration-300 shadow-md hover:shadow-lg"
             >
               <a 
                 href="https://forms.gle/iAUwdQZxy1cLVG8N8" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center gap-2"
+                className="flex items-center gap-2 text-lg"
               >
-                Abrir Formulário do Google
+                Começar agora
               </a>
             </Button>
           </motion.div>
