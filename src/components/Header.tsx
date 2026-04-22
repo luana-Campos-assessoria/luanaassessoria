@@ -16,10 +16,11 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 md:h-20">
         <a href="#home" className="flex items-center">
-          <div className="flex flex-col items-start leading-tight">
-            <span className="text-lg md:text-xl font-semibold tracking-wide" style={{ fontFamily: "'Playfair Display', serif" }}>Luana Campos</span>
-            <span className="text-[10px] md:text-xs text-muted-foreground tracking-widest uppercase" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>Assessora de Eventos</span>
-          </div>
+          <img 
+            src="/logo-branco.png" 
+            alt="Luana Campos Assessoria de Eventos" 
+            className="h-10 md:h-12 w-auto object-contain brightness-0 dark:brightness-200" 
+          />
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
