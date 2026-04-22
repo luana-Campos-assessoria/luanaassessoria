@@ -13,6 +13,18 @@ const About = () => {
   return (
     <section id="sobre" className="py-20 md:py-28 bg-card">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+          className="text-center mb-12"
+        >
+          <p className="text-sm uppercase tracking-[0.25em] text-primary mb-3 font-bold">
+            Sobre mim
+          </p>
+        </motion.div>
+
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -40 }}
@@ -36,10 +48,7 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-sm uppercase tracking-[0.25em] text-primary mb-3 font-medium">
-              Sobre mim
-            </p>
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 leading-snug">
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 leading-snug font-bold">
               Cada casamento é único
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
@@ -52,7 +61,7 @@ const About = () => {
               São José dos Campos, litoral, campo ou capital. Especialista em
               cerimônias católicas, evangélicas e simbólicas.
             </p>
-            <p className="text-foreground font-serif italic text-lg mb-8">
+            <p className="text-foreground font-serif italic text-lg mb-8 font-semibold">
               "Confiança é a base do luxo."
             </p>
 
@@ -63,7 +72,7 @@ const About = () => {
                   className="flex flex-col items-center gap-2 p-4 rounded-xl bg-muted/50"
                 >
                   <Icon className="w-5 h-5 text-primary" />
-                  <span className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                  <span className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
                     {label}
                   </span>
                 </div>
