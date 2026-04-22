@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Instagram, Mail, MapPin, FileText } from "lucide-react";
+import { Instagram, Mail, MapPin, FileText, Facebook, Video, Pin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -70,6 +70,42 @@ const Contact = () => {
                 <p className="font-medium text-foreground text-sm uppercase tracking-wider">Instagram</p>
                 <a href="https://instagram.com/cerimonialistaluanacampos" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-sm hover:text-foreground transition-colors">
                   @cerimonialistaluanacampos
+                </a>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="w-10 h-10 bg-primary/5 rounded-full flex items-center justify-center shrink-0">
+                <Video className="w-5 h-5 text-primary" />
+              </div>
+              <div>
+                <p className="font-medium text-foreground text-sm uppercase tracking-wider">TikTok</p>
+                <a href="https://www.tiktok.com/@cerimonialistaluanacampos" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-sm hover:text-foreground transition-colors">
+                  @cerimonialistaluanacampos
+                </a>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="w-10 h-10 bg-primary/5 rounded-full flex items-center justify-center shrink-0">
+                <Facebook className="w-5 h-5 text-primary" />
+              </div>
+              <div>
+                <p className="font-medium text-foreground text-sm uppercase tracking-wider">Facebook</p>
+                <a href="https://www.facebook.com/luanacamposcerimonialista" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-sm hover:text-foreground transition-colors">
+                  @luanacamposcerimonialista
+                </a>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4">
+              <div className="w-10 h-10 bg-primary/5 rounded-full flex items-center justify-center shrink-0">
+                <Pin className="w-5 h-5 text-primary" />
+              </div>
+              <div>
+                <p className="font-medium text-foreground text-sm uppercase tracking-wider">Pinterest</p>
+                <a href="https://pin.it/6H6qBF7WI" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-sm hover:text-foreground transition-colors">
+                  Acesse nosso Pinterest
                 </a>
               </div>
             </div>
