@@ -18,7 +18,7 @@ const Header = () => {
         <a href="#home" className="flex items-center">
           <div className="flex flex-col items-start leading-tight">
             <span className="text-lg md:text-xl font-semibold tracking-wide" style={{ fontFamily: "'Playfair Display', serif" }}>Luana Campos</span>
-            <span className="text-[10px] md:text-xs text-muted-foreground tracking-widest uppercase" style={{ fontFamily: "'Montserrat', sans-serif" }}>Assessora de Eventos</span>
+            <span className="text-[10px] md:text-xs text-muted-foreground tracking-widest uppercase" style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>Assessora de Eventos</span>
           </div>
         </a>
 

@@ -66,7 +66,7 @@ const Contact = () => {
               <Label htmlFor="message">Mensagem</Label>
               <Textarea id="message" placeholder="Conte um pouco sobre o que vocês sonham para esse dia..." rows={4} value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} />
             </div>
-            <Button type="submit" className="w-full bg-[hsl(var(--gold))] hover:bg-[hsl(var(--gold))]/90 text-white rounded-full py-6">
+            <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-white rounded-full py-6">
               <Send className="w-4 h-4 mr-2" />
               Enviar mensagem
             </Button>
