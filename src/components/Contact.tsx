@@ -11,8 +11,9 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const text = `Olá Luana! Meu nome é ${form.name}. Tipo de evento: ${form.eventType}. Data: ${form.date}. Mensagem: ${form.message}`;
-    window.open(`https://wa.me/5512999999999?text=${encodeURIComponent(text)}`, "_blank");
+    console.log("Form submitted:", form);
+    alert("Mensagem enviada com sucesso! Entraremos em contato por e-mail em breve.");
+    setForm({ name: "", email: "", eventType: "", date: "", message: "" });
   };
 
   return (

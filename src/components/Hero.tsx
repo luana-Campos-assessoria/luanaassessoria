@@ -64,22 +64,6 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="flex flex-col items-center gap-6"
         >
-          <Button
-            asChild
-            size="lg"
-            className="bg-primary hover:bg-primary/90 text-white text-base px-8 py-6 rounded-full shadow-lg"
-          >
-            <a
-              href="https://wa.me/5512999999999"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2"
-            >
-              <MessageCircle className="w-5 h-5" />
-              Fale comigo no WhatsApp
-            </a>
-          </Button>
-
           <p className="text-white/70 text-sm md:text-base font-light tracking-wide">
             O luxo de viver o agora (quando tudo já foi cuidado). 🌙✨
           </p>
