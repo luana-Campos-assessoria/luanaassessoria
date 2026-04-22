@@ -4,7 +4,7 @@ import { Instagram, Mail, MapPin, FileText } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contato" className="py-20 md:py-28 bg-card">
+    <section id="contato" className="py-16 md:py-20 bg-card">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
