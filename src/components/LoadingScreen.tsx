@@ -8,7 +8,7 @@ const LoadingScreen = () => {
       transition={{ duration: 0.5, ease: "easeInOut" }}
       className="fixed inset-0 z-[9999] flex items-center justify-center bg-white"
     >
-      <div className="relative flex flex-col items-center">
+      <div className="relative flex flex-col items-center justify-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ 
