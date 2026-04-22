@@ -3,9 +3,9 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    text: "A Assessoria da Luana foi o investimento mais assertivo do nosso casamento. Ela garantiu que nós estivéssemos tranquilos para bem viver o momento.",
-    author: "Marina & Rafael",
-    event: "Casamento em Taubaté",
+    text: "A Luana foi maravilhosa! Se aconteceu algum problema durante todo o processo de organização e no dia do casamento, nós nem ficamos sabendo, pois ela simplesmente resolvia tudo sem nos preocupar! Ela foi nossa melhor escolha! Escolheria ela mil vezes!",
+    author: "Natália & Adriel",
+    event: "Casamento • 27-04-2024",
   },
   {
     text: "Transformamos logística complexa em momentos leves e inesquecíveis. A Luana entendeu exatamente o que queríamos e entregou além.",
