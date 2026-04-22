@@ -64,9 +64,6 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="flex flex-col items-center gap-6"
         >
-          <p className="text-white/70 text-sm md:text-base font-light tracking-wide">
-            O luxo de viver o agora (quando tudo já foi cuidado). 🌙✨
-          </p>
         </motion.div>
       </div>
     </section>
