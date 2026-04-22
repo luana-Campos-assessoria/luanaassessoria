@@ -36,7 +36,7 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-sm uppercase tracking-[0.25em] text-[hsl(var(--gold))] mb-3 font-medium">
+            <p className="text-sm uppercase tracking-[0.25em] text-primary mb-3 font-medium">
               Sobre mim
             </p>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-6 leading-snug">
