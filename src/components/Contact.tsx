@@ -80,7 +80,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="font-medium text-foreground text-sm uppercase tracking-wider">TikTok</p>
-                <a href="https://www.tiktok.com/@cerimonialistaluanacampos" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-sm hover:text-foreground transition-colors">
+                <a href="https://www.tiktok.com/@cerimonialistaluanacampo" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-sm hover:text-foreground transition-colors">
                   @cerimonialistaluanacampos
                 </a>
               </div>
