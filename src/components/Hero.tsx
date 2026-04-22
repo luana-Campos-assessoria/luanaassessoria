@@ -35,9 +35,9 @@ const Hero = () => {
           className="mb-6 flex justify-center"
         >
           <img 
-            src="/logo-preto.png" 
+            src="/logo-branco.png" 
             alt="Luana Campos Assessoria de Eventos" 
-            className="h-32 sm:h-40 md:h-48 w-auto object-contain" 
+            className="h-32 sm:h-40 md:h-48 w-auto object-contain brightness-0" 
           />
         </motion.div>
 
