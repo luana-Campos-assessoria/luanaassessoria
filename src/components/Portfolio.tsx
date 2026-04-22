@@ -14,7 +14,7 @@ const photos = [
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="py-20 md:py-28 bg-card">
+    <section id="portfolio" className="py-16 md:py-20 bg-card">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
