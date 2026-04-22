@@ -8,9 +8,9 @@ const testimonials = [
     event: "Casamento • 27-04-2024",
   },
   {
-    text: "Transformamos logística complexa em momentos leves e inesquecíveis. A Luana entendeu exatamente o que queríamos e entregou além.",
-    author: "Camila & Bruno",
-    event: "Casamento no Litoral Norte",
+    text: "Desde o início, ela esteve lado a lado conosco, nos ajudando em cada etapa, tirando dúvidas e trazendo segurança em todos os momentos. Sempre muito atenciosa, organizada e presente, fez toda a diferença para que tudo acontecesse de forma leve e tranquila. Nos sentimos acolhidos e bem orientados do começo ao fim. Somos muito gratos por todo o apoio e dedicação!",
+    author: "Debora & Marcus",
+    event: "Casamento • 27-09-2025",
   },
   {
     text: "Do primeiro encontro ao último convidado ir embora, a Luana estava presente com profissionalismo e carinho. Nosso dia foi perfeito!",
