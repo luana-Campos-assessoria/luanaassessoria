@@ -17,9 +17,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 md:h-20">
         <a href="#home" className="flex items-center">
           <img 
-            src="/src/assets/logo-white.png" 
+            src="/logo-white.png" 
             alt="Luana Campos" 
-            className="h-10 md:h-12 w-auto invert brightness-0" 
+            className="h-10 md:h-12 w-auto" 
           />
         </a>
 
