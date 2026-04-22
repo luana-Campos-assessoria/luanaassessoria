@@ -15,15 +15,15 @@ const Hero = () => {
           backgroundImage: `url(https://lh3.googleusercontent.com/d/132zdNpSZWFM94kXn71B60unk_y-02WBw)`,
         }}
       />
-      <div className="absolute inset-0 bg-white/30 backdrop-blur-[2px]" />
-      <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-transparent to-black/20" />
+      <div className="absolute inset-0 bg-white/50 backdrop-blur-[1px]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-white/40 to-white/60" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-foreground/80 text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-medium"
+          className="text-foreground text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-bold drop-shadow-sm"
         >
           Assessora de Eventos e Cerimonialista
         </motion.p>
@@ -45,7 +45,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-foreground/90 text-lg md:text-xl mb-4 font-medium max-w-2xl mx-auto"
+          className="text-foreground text-lg md:text-xl mb-4 font-semibold max-w-2xl mx-auto drop-shadow-sm"
         >
           Será um prazer conduzir vocês nesse momento tão especial.
         </motion.p>
@@ -54,7 +54,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-primary text-base md:text-lg mb-10 font-medium italic max-w-2xl mx-auto"
+          className="text-primary text-lg md:text-xl mb-10 font-bold italic max-w-2xl mx-auto drop-shadow-sm"
         >
           "O seu sonho, perfeitamente orquestrado com amor!"
         </motion.p>
