@@ -10,7 +10,7 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-top"
         style={{
           backgroundImage: `url(https://lh3.googleusercontent.com/d/132zdNpSZWFM94kXn71B60unk_y-02WBw)`,
         }}
