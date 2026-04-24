@@ -10,9 +10,9 @@ import FloatingFormButton from "@/components/FloatingFormButton";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background overflow-hidden">
       <Header />
-      <main>
+      <main className="overflow-hidden">
         <Hero />
         <About />
         <Services />
