@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { UserCheck, PiggyBank, Briefcase, Plane, Sparkles, Smartphone } from "lucide-react";
+import { UserCheck, CircleDollarSign, Briefcase, Plane, Sparkles, Smartphone } from "lucide-react";
 
 const services = [
   {
@@ -8,7 +8,7 @@ const services = [
     desc: "Desenvolvida de acordo com a necessidade e o momento do casal.",
   },
   {
-    icon: PiggyBank,
+    icon: CircleDollarSign,
     title: "Alinhamento de Budget",
     desc: "Orientação de budget de acordo com o perfil e expectativa do casal.",
   },
