@@ -73,3 +73,9 @@
     @apply overflow-x-hidden;
   }
 }
+
+@layer utilities {
+  .filter-gold {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(21%) saturate(934%) hue-rotate(345deg) brightness(91%) contrast(85%);
+  }
+}
