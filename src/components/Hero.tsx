@@ -38,7 +38,7 @@ const Hero = () => {
           <img 
             src="/logo-branco.png" 
             alt="Luana Campos Assessoria de Eventos" 
-            className="h-32 sm:h-40 md:h-48 w-auto object-contain filter-gold drop-shadow-[0_2px_8px_rgba(0,0,0,0.3)] contrast-110" 
+            className="h-32 sm:h-40 md:h-48 w-auto object-contain brightness-0 drop-shadow-[0_2px_8px_rgba(255,255,255,0.5)]" 
           />
         </motion.div>
 
