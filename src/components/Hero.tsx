@@ -16,15 +16,15 @@ const Hero = () => {
           backgroundPosition: "center 20%",
         }}
       />
-      <div className="absolute inset-0 bg-white/70 backdrop-blur-[4px]" />
-      <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-white/60 to-white/80" />
+      <div className="absolute inset-0 bg-white/30 backdrop-blur-[1px]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-transparent to-white/40" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-foreground text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-bold drop-shadow-sm"
+          className="text-[#5B2A26] text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-bold drop-shadow-sm"
         >
           Assessora de Eventos e Cerimonialista
         </motion.p>
@@ -38,7 +38,7 @@ const Hero = () => {
           <img 
             src="/logo-branco.png" 
             alt="Luana Campos Assessoria de Eventos" 
-            className="h-32 sm:h-40 md:h-48 w-auto object-contain filter-gold drop-shadow-[0_4px_12px_rgba(0,0,0,0.15)] contrast-125" 
+            className="h-32 sm:h-40 md:h-48 w-auto object-contain filter-gold drop-shadow-[0_2px_8px_rgba(0,0,0,0.3)] contrast-110" 
           />
         </motion.div>
 
