@@ -16,8 +16,8 @@ const Hero = () => {
           backgroundPosition: "center 20%",
         }}
       />
-      <div className="absolute inset-0 bg-white/50 backdrop-blur-[1px]" />
-      <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-white/40 to-white/60" />
+      <div className="absolute inset-0 bg-white/60 backdrop-blur-[2px]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/50 to-white/70" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <motion.p
