@@ -16,8 +16,8 @@ const Hero = () => {
           backgroundPosition: "center 20%",
         }}
       />
-      <div className="absolute inset-0 bg-white/60 backdrop-blur-[2px]" />
-      <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/50 to-white/70" />
+      <div className="absolute inset-0 bg-white/70 backdrop-blur-[4px]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-white/60 to-white/80" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <motion.p
@@ -38,7 +38,7 @@ const Hero = () => {
           <img 
             src="/logo-branco.png" 
             alt="Luana Campos Assessoria de Eventos" 
-            className="h-32 sm:h-40 md:h-48 w-auto object-contain filter-gold drop-shadow-md" 
+            className="h-32 sm:h-40 md:h-48 w-auto object-contain filter-gold drop-shadow-[0_4px_12px_rgba(0,0,0,0.15)] contrast-125" 
           />
         </motion.div>
 
