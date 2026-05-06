@@ -36,9 +36,9 @@ const Hero = () => {
           className="mb-6 flex justify-center"
         >
           <img 
-            src="/logo-branco.png" 
+            src="https://lh3.googleusercontent.com/d/1jrxeUtjLnPteXzI22GSpEN33iFJzfETH" 
             alt="Luana Campos Assessoria de Eventos" 
-            className="h-32 sm:h-40 md:h-48 w-auto object-contain brightness-0 drop-shadow-[0_2px_8px_rgba(255,255,255,0.5)]" 
+            className="h-32 sm:h-40 md:h-48 w-auto object-contain drop-shadow-[0_2px_8px_rgba(0,0,0,0.2)]" 
           />
         </motion.div>
 
