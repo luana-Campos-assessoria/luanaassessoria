@@ -23,9 +23,9 @@ const LoadingScreen = () => {
           className="relative"
         >
           <img 
-            src="/logo-branco.png" 
+            src="https://lh3.googleusercontent.com/d/1jrxeUtjLnPteXzI22GSpEN33iFJzfETH" 
             alt="Luana Campos Logo" 
-            className="h-24 md:h-32 w-auto object-contain brightness-0 opacity-80" 
+            className="h-24 md:h-32 w-auto object-contain opacity-80" 
           />
         </motion.div>
         

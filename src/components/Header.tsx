@@ -17,9 +17,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20 md:h-24">
         <a href="#home" className="flex items-center">
           <img 
-            src="/logo-branco.png" 
+            src="https://lh3.googleusercontent.com/d/1jrxeUtjLnPteXzI22GSpEN33iFJzfETH" 
             alt="Luana Campos Assessoria de Eventos" 
-            className="h-[60px] md:h-[75px] w-auto object-contain brightness-0 dark:brightness-200" 
+            className="h-[60px] md:h-[75px] w-auto object-contain" 
           />
         </a>
 
