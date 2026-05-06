@@ -24,7 +24,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-[#5B2A26] text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-bold drop-shadow-sm"
+          className="text-black text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-bold drop-shadow-sm"
         >
           Assessora de Eventos e Cerimonialista
         </motion.p>
