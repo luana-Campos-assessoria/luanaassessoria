@@ -30,7 +30,7 @@ const Portfolio = () => {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
           {photos.map((photo, i) => (
             <motion.div
               key={i}
@@ -47,7 +47,7 @@ const Portfolio = () => {
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-end">
-                <p className="text-white text-sm p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-medium">
+                <p className="text-white text-sm p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-medium text-left">
                   {photo.label}
                 </p>
               </div>
