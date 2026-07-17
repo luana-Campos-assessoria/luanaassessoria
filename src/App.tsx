@@ -9,7 +9,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import CalculadoraVolantes from "./pages/CalculadoraVolantes";
 import LoadingScreen from "./components/LoadingScreen";
-import heroBgAsset from "./assets/hero-capa-luana.webp.asset.json";
+import heroBg from "./assets/hero-capa-luana.webp";
 
 const queryClient = new QueryClient();
 
@@ -27,7 +27,7 @@ const App = () => {
 
     image.onload = finishLoading;
     image.onerror = finishLoading;
-    image.src = heroBgAsset.url;
+    image.src = heroBg;
 
     const fallbackTimer = setTimeout(finishLoading, 3500);
 
