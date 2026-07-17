@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroBgAsset from "@/assets/hero-capa-luana.webp.asset.json";
+import heroBg from "@/assets/hero-capa-luana.webp";
 
 const Hero = () => {
   return (
@@ -10,7 +10,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${heroBgAsset.url})`,
+          backgroundImage: `url(${heroBg})`,
           backgroundPosition: "center 20%",
         }}
       />
