@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import cerimoniaArLivre from "@/assets/portfolio-cerimonia-ar-livre.webp";
 import detalhesRomanticos from "@/assets/portfolio-detalhes-romanticos.webp";
 import cerimoniaPraia from "@/assets/portfolio-cerimonia-praia.webp";
+import momentosEspeciais from "@/assets/portfolio-momentos-especiais.webp";
 
 const photos = [
   
@@ -12,7 +13,7 @@ const photos = [
   { src: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=600&q=80", label: "Noivos felizes" },
   { src: "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?w=600&q=80", label: "Casamento no campo" },
   { src: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=600&q=80", label: "Decoração floral" },
-  { src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&q=80", label: "Momentos especiais" },
+  { src: momentosEspeciais, label: "Momentos especiais" },
 ];
 
 const Portfolio = () => {
