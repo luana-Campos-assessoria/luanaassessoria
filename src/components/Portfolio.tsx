@@ -14,7 +14,7 @@ const photos = [
   { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80", label: "Mesa decorada com flores" },
   { src: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=600&q=80", label: "Noivos felizes" },
   { src: casamentoCampo, label: "Casamento no campo" },
-  { src: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=600&q=80", label: "Decoração floral" },
+  { src: decoracaoFloral, label: "Decoração floral" },
   { src: momentosEspeciais, label: "Momentos especiais" },
 ];
 
