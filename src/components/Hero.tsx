@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import { MessageCircle } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import heroBgAsset from "@/assets/hero-capa-luana.webp.asset.json";
 
 const Hero = () => {
