@@ -6,13 +6,14 @@ import momentosEspeciais from "@/assets/portfolio-momentos-especiais.webp";
 import casamentoCampo from "@/assets/portfolio-casamento-campo.webp";
 import decoracaoFloral from "@/assets/portfolio-decoracao-floral.webp";
 import noivosFelizes from "@/assets/portfolio-noivos-felizes.webp";
+import carinhoDetalhes from "@/assets/portfolio-carinho-detalhes.webp";
 
 const photos = [
   
   { src: cerimoniaArLivre, label: "Cerimônia ao ar livre" },
   { src: detalhesRomanticos, label: "Detalhes românticos" },
   { src: cerimoniaPraia, label: "Cerimônia na praia" },
-  { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80", label: "Mesa decorada com flores" },
+  { src: carinhoDetalhes, label: "Carinho em cada detalhe" },
   { src: noivosFelizes, label: "Noivos felizes" },
   { src: casamentoCampo, label: "Casamento no campo" },
   { src: decoracaoFloral, label: "Decoração floral" },
