@@ -5,6 +5,7 @@ import cerimoniaPraia from "@/assets/portfolio-cerimonia-praia.webp";
 import momentosEspeciais from "@/assets/portfolio-momentos-especiais.webp";
 import casamentoCampo from "@/assets/portfolio-casamento-campo.webp";
 import decoracaoFloral from "@/assets/portfolio-decoracao-floral.webp";
+import noivosFelizes from "@/assets/portfolio-noivos-felizes.webp";
 
 const photos = [
   
@@ -12,7 +13,7 @@ const photos = [
   { src: detalhesRomanticos, label: "Detalhes românticos" },
   { src: cerimoniaPraia, label: "Cerimônia na praia" },
   { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80", label: "Mesa decorada com flores" },
-  { src: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=600&q=80", label: "Noivos felizes" },
+  { src: noivosFelizes, label: "Noivos felizes" },
   { src: casamentoCampo, label: "Casamento no campo" },
   { src: decoracaoFloral, label: "Decoração floral" },
   { src: momentosEspeciais, label: "Momentos especiais" },
