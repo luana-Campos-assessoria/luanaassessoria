@@ -3,6 +3,7 @@ import cerimoniaArLivre from "@/assets/portfolio-cerimonia-ar-livre.webp";
 import detalhesRomanticos from "@/assets/portfolio-detalhes-romanticos.webp";
 import cerimoniaPraia from "@/assets/portfolio-cerimonia-praia.webp";
 import momentosEspeciais from "@/assets/portfolio-momentos-especiais.webp";
+import casamentoCampo from "@/assets/portfolio-casamento-campo.webp";
 
 const photos = [
   
