@@ -24,7 +24,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-foreground text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-bold drop-shadow-md"
+          className="text-white text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-bold drop-shadow-md"
         >
           Assessora de Eventos e Cerimonialista
         </motion.p>
@@ -38,7 +38,7 @@ const Hero = () => {
           <img 
             src="https://lh3.googleusercontent.com/d/1jrxeUtjLnPteXzI22GSpEN33iFJzfETH" 
             alt="Luana Campos Assessoria de Eventos" 
-            className="h-32 sm:h-40 md:h-48 w-auto object-contain drop-shadow-[0_2px_8px_rgba(0,0,0,0.2)]" 
+            className="h-32 sm:h-40 md:h-48 w-auto object-contain drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)] brightness-0 invert" 
           />
         </motion.div>
 
@@ -47,9 +47,9 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-primary text-lg md:text-xl mb-10 font-bold italic max-w-2xl mx-auto drop-shadow-sm"
+          className="text-white text-lg md:text-xl mb-10 font-bold italic max-w-2xl mx-auto drop-shadow-sm"
         >
-          "O seu sonho, perfeitamente orquestrado com amor!"
+          O seu sonho, perfeitamente orquestrado com amor!
         </motion.p>
 
         <motion.div
