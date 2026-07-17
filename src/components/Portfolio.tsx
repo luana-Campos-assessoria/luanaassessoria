@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
+import cerimoniaArLivre from "@/assets/portfolio-cerimonia-ar-livre.jpg.asset.json";
 
 const photos = [
   
-  { src: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=80", label: "Cerimônia ao ar livre" },
+  { src: cerimoniaArLivre.url, label: "Cerimônia ao ar livre" },
   { src: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=600&q=80", label: "Detalhes românticos" },
   { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80", label: "Cerimônia na praia" },
   { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80", label: "Mesa decorada com flores" },
