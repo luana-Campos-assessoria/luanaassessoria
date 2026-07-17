@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroBg from "@/assets/hero-bg.png";
+import heroBgAsset from "@/assets/hero-bg-new.jpg.asset.json";
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-cover"
         style={{
-          backgroundImage: `url(https://lh3.googleusercontent.com/d/132zdNpSZWFM94kXn71B60unk_y-02WBw)`,
+          backgroundImage: `url(${heroBgAsset.url})`,
           backgroundPosition: "center 20%",
         }}
       />
