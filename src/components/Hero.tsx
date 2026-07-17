@@ -14,8 +14,8 @@ const Hero = () => {
           backgroundPosition: "center 20%",
         }}
       />
-      <div className="absolute inset-0 bg-white/30 backdrop-blur-[1px]" />
-      <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-transparent to-white/40" />
+      <div className="absolute inset-0" style={{ backgroundColor: "rgba(91, 42, 38, 0.45)" }} />
+
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <motion.p
