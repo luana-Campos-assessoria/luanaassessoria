@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import CalculadoraVolantes from "./pages/CalculadoraVolantes";
 import LoadingScreen from "./components/LoadingScreen";
+import heroBgAsset from "./assets/hero-capa-luana.webp.asset.json";
 
 const queryClient = new QueryClient();
 
@@ -16,11 +17,26 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simula tempo de carregamento inicial
-    const timer = setTimeout(() => {
+    let isMounted = true;
+    const image = new Image();
+
+    const finishLoading = () => {
+      if (!isMounted) return;
       setIsLoading(false);
-    }, 2000);
-    return () => clearTimeout(timer);
+    };
+
+    image.onload = finishLoading;
+    image.onerror = finishLoading;
+    image.src = heroBgAsset.url;
+
+    const fallbackTimer = setTimeout(finishLoading, 3500);
+
+    return () => {
+      isMounted = false;
+      clearTimeout(fallbackTimer);
+      image.onload = null;
+      image.onerror = null;
+    };
   }, []);
 
   return (
