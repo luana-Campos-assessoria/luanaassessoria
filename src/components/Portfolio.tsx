@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import cerimoniaArLivre from "@/assets/portfolio-cerimonia-ar-livre.webp";
-import detalhesRomanticos from "@/assets/portfolio-detalhes-romanticos.webp.asset.json";
+import detalhesRomanticos from "@/assets/portfolio-detalhes-romanticos.webp";
 
 const photos = [
   
   { src: cerimoniaArLivre, label: "Cerimônia ao ar livre" },
-  { src: detalhesRomanticos.url, label: "Detalhes românticos" },
+  { src: detalhesRomanticos, label: "Detalhes românticos" },
   { src: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80", label: "Cerimônia na praia" },
   { src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80", label: "Mesa decorada com flores" },
   { src: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=600&q=80", label: "Noivos felizes" },
